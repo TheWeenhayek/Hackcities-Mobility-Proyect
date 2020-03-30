@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326280007665",
+    "firebase_url": "https://mobilityhack-38794.firebaseio.com",
+    "project_id": "mobilityhack-38794",
+    "storage_bucket": "mobilityhack-38794.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326280007665:android:181c996292cdf55e1a7e50",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326280007665-2pru7nf1mp5v5ksr846ctet8anahm0bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-FA814DSdJRbCw-VpnheiiM3fwVgpipk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326280007665-2pru7nf1mp5v5ksr846ctet8anahm0bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

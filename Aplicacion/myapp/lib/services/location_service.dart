@@ -28,10 +28,6 @@ class LocationService {
       }
     });
   }
-
-
-
-
   Future<UserLocation> getLocation() async {
     try {
       var userLocation = await location.getLocation();

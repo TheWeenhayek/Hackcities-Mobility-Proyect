@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/datamodels/user_location.dart';
 import 'package:provider/provider.dart';
+//import 'package:cloud_firestore/cloud_firestore.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);
@@ -30,10 +31,7 @@ class HomeView extends StatelessWidget {
       default: {parada='Usted no se encuentra cerca de ninguna estación'; } 
       break; 
    } 
-
-    
-
-
+  
     return Center(
       child: Text(
           '''Tu ubicacion actual es: 
@@ -41,5 +39,11 @@ class HomeView extends StatelessWidget {
               Long: ${userLocation?.longitude}
               Tu ubicacion actual es: $parada'''),
     );
+
+
+       
+    
+
+
   }
 }
