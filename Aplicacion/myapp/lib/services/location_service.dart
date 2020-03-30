@@ -36,8 +36,8 @@ class LocationService {
     try {
       var userLocation = await location.getLocation();
       _currentLocation = UserLocation(
-        latitude: userLocation.latitude+100,
-        longitude: userLocation.longitude+100,
+        latitude: userLocation.latitude,
+        longitude: userLocation.longitude,
       );
     } on Exception catch (e) {
       print('Could not get location: ${e.toString()}');
