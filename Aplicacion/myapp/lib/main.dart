@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/datamodels/user_location.dart';
 import 'package:myapp/services/location_service.dart';
-//import 'package:myapp/views/home_view.dart';
+import 'package:myapp/views/home_view.dart';
 import 'package:provider/provider.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+//import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,28 +14,15 @@ class MyApp extends StatelessWidget {
     return StreamProvider<UserLocation>(
       create: (context) => LocationService().locationStream,
       child: MaterialApp(
-          title: 'Flutter Demo',
+          title: 'Aplicación Hackcities',
           theme: ThemeData(
-            primarySwatch: Colors.blue,
+            primarySwatch: Colors.blueGrey,
           ),
           home: Scaffold(
-            //body: HomeView(),
-                body:new StreamBuilder(
-                  stream: Firestore.instance.collection("Sist.de.bus").snapshots(),
-                  builder: (context, snapshot){
-                    if(!snapshot.hasData)
-                      return new Text("Conectando......");
-                    return new ListView.builder(
-                      itemCount: snapshot.data.documents.lenght,
-                      itemBuilder: (context, index){
-                          DocumentSnapshot ds = snapshot.data.documents['index'];
-                          return new Text(ds['Latitud']);
-                      }
-                          );
-                      }
-                      ),   
-
-
+            appBar: AppBar(
+              title: Text('Bienvenido a nuestra app'),
+            ),
+            body: HomeView(),
           )),
     );
   }
