@@ -1,4 +1,6 @@
 //import 'package:cloud_firestore/cloud_firestore.dart';
+//import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:myapp/datamodels/user_location.dart';
 import 'package:provider/provider.dart';
@@ -20,35 +22,43 @@ class HomeView extends StatelessWidget {
     var parada;
     var aux = 0;
     var aux1 = 0;
-    var aux2;
-
+    //var aux2;
+    
+  
+    
+    //aux2=year as int;
     if (((lati > -16.500791) & (lati < -16.500709)) &
         ((longi > -68.130387) & (longi < -68.129988))) {
       resu = '1';
       aux=1;
 
+      
 
       if((aux==1)&(aux1==0)){
      /*
       Firestore.instance.collection('Sist.de.bus').document()
        .setData({ 'Latitud': Timestamp.now(), 'Longitud': longi, 'ID Parada': resu});
      */
-     
-      FirebaseDatabase.instance.reference().child("2").set({
+     var texto="Bus2";
+      FirebaseDatabase.instance.reference().child("Sist de bus").child(texto).set({
+    'Dia': 31,
+    'Mes' :  03 ,
+    'Año': 10,
+    'Hora': 10,
+    'Minutos': 55,
+    'Segundos': 11,
+    'Id parada': 1,
+    'Id bus': 5,
+    'Id ruta': 'Achumani',
+    'NombreParada': 'Bueno',
     'Longitud': lati ,
     'description': longi
+
   });
-
-
-
-       aux1=1;
+     aux1=1;
       }
 
-
-
-
-
-    }
+  }
     if (((lati > -16.500469) & (lati < -16.500072)) &
         ((longi > -68.132131) & (longi < -68.131991))) {
       resu = '0';
@@ -98,9 +108,7 @@ class HomeView extends StatelessWidget {
               Lat: ${userLocation?.latitude}
               Long: ${userLocation?.longitude}
               Tu ubicacion actual es: $parada
-              $aux,$aux1
-              
-              $aux2'''),
+            '''),
     );
   }
 /*
