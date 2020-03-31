@@ -1,0 +1,312 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"tex",
+				"text-transform\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"de",
+				"text-decoration\tproperty"
+			],
+			[
+				"borde",
+				"border-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"pa",
+				"padding-right\tproperty"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"backro",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1953,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "body{\n\tfont: 15px Arial, helvetica,sans-serif;\n\tpadding: 0;\n\tmargin: 0;\n\tbackground-color: #f4f4f4\n}\n\n\n.contenedor{\n\twidth: 80%;\n\tmargin: auto;\n\toverflow: hidden;\n\n}\n\nu1{\n\tmargin: 0;\n\tpadding: 0;\n}\n\n.boton1{\n\theight: 38px;\n\tbackground-color: #e8491d;\n\tborder: 0;\n\tpadding-left: 20px;\n\tpadding-right: 20px;\n\tcolor: #fff;  /*color blanco*/\n}\n\n/*encabezado*/\nheader{\n\tbackground-color: #24282b;\n\tcolor: #fff;\n\tpadding-top: 30px;\n\tmin-height: 70px;\n\tborder-bottom: 5px solid #FBE101; \n}\nheader a{\n\tcolor: #fff;\n\ttext-decoration: none;\n\ttext-transform: uppercase;\n\tfont-size: 16px;\n}\nheader li{      \n\tfloat: left;\n\tdisplay: inline;\n\tpadding: 0 20px 0 20px;\n}\nheader #marca{            \n\tfloat: left;\n}\n\nheader #marca h1{              \n\tmargin: 0;\n}\n\nheader nav{             \n\tfloat: right;\n\tmargin-top: 10px;\n}\n\nheader .resaltado, header .actual a{         \n\tcolor:#FBE101;\n\tfont-weight: bold;\n}\n\nheader a:hover{                       \n\tcolor: #ccc;                      \n\tfont-weight: bold;\n}\n\n/* cabecera conn imagen*/\n#cabecera{\n\tmin-height: 200px;\n\tbackground: url('../img/portada.jpg') no-repeat 0 -350px;\n\ttext-align: center;\n\tcolor: #fff;\n}\n\n#cabecera h1{\n\tmargin-top: 100px;\n\tfont-size: 70px;\n\tmargin-bottom: 100px;\n}\n\n#cabecera p{\n\tfont-size: 20px;\n}\n\n/*formulario boletín*/\n#boletin{\n\tpadding: 15px;\n\tcolor: #ffff;\n\tbackground:#24282b;\n}\n\n#boletin h1{\n\tfloat: left;\n}\n\n#boletin form{\n\tfloat: right;\n\tmargin-top: 15px;\n}\n\n#boletin input[type=\"email\"]{\n\tpadding: 4px;\n\theight: 25px;\n\twidth: 250px;\n}\n\n/*cajas*/\n#cajas{\n\tmargin-top: 20px;\n}\n#cajas .caja img{\n\twidth: 90px;\n}",
+			"file": "css/estilos.css",
+			"file_size": 2082,
+			"file_write_time": 132301600204573814,
+			"settings":
+			{
+				"buffer_size": 1577,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/HP/Desktop/sitioweb1",
+		"/C/Users/HP/Desktop/sitioweb1/css"
+	],
+	"file_history":
+	[
+		"/C/Users/HP/Desktop/sitioweb1/index.html",
+		"/C/Users/HP/Desktop/sitioweb1/css/estilos.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1897,
+								1897
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/estilos.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 141.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sitiowebprojSublime.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

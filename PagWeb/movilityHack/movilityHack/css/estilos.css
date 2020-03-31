@@ -1,0 +1,118 @@
+body{
+	font: 15px Arial, helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4
+}
+
+/*estilos globales*/
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+u1{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 38px;
+	background-color: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;  /*color blanco*/
+}
+
+/*encabezado*/
+header{
+	background-color: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #FBE101; /*borde inferior azul*/
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{        /*li pone el encabezado en forma lineal*/
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{              /*llamamos al id marca con #*/
+	float: left;
+}
+
+header #marca h1{              /*para los h1 que esten dentro de marca#*/
+	margin: 0;
+}
+
+header nav{              /*para el menu la navegacion de la cabecera*/
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado, header .actual a{         /*llamamos a las clases para darles el mismo color azul  GRAPHEL INICIO*/
+	color:#FBE101;
+	font-weight: bold;
+}
+
+header a:hover{                       /*el resaltado flotante que aparece al acercar el mouse a las letras del boton*/
+	color: #ccc;                      /*color gris del resaltado*/
+	font-weight: bold;
+}
+
+/* cabecera conn imagen*/
+#cabecera{
+	min-height: 200px;
+	background: url('../img/portada.jpg') no-repeat 0 -350px;
+	text-align: center;
+	color: #fff;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 70px;
+	margin-bottom: 100px;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+/*formulario boletín*/
+#boletin{
+	padding: 15px;
+	color: #ffff;
+	background:#24282b;
+}
+
+#boletin h1{
+	float: left;
+}
+
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+
+#boletin input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*cajas*/
+#cajas{
+	margin-top: 20px;
+}
+#cajas .caja img{
+	width: 90px;
+}
