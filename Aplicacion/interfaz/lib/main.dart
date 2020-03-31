@@ -90,11 +90,10 @@ class MyApp extends StatelessWidget {
 
 // Generate dialog
           AlertDialog dialog = new AlertDialog(
-              content: new Text("Nombre del chofer: $nomChofer \n"
-                                "Nombre del Anfitrion: $nomAnfi \n"
-                                "Número de bus: $idBUSPM \n"
-                                "Ruta: $ruta \n"
-                                "REGISTRANDO....")
+              content: new Text("Nombre del chofer:$nomChofer \n"
+                                "Nombre del Anfitrion:$nomAnfi \n"
+                                "Número de bus: $idBUSPM\n"
+                                "Ruta: $ruta\n")
           );
 
 // Show dialog
