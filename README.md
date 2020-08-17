@@ -11,14 +11,6 @@
 ## Motivación
 Constriur al mejoramiento del servicio, ya que al final de cuentas  es para nosotros mismos.
 
-## Capturas de pantalla
-Pagina web.
-
-![alt text](https://github.com/)
-
-
-![alt text](https://github.com/)
-
 ## Tecnologías/Frameworks utilizados
 
 - Flutter
