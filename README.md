@@ -3,13 +3,13 @@
 
  ¿Qué componentes tiene?
  
- Aplicaion Movil.
+ Aplicación Movil
  Pagina Web
- Servidor de la pagina.
+ Servidor
  
 
 ## Motivación
-Constriur al mejoramiento del servicio, ya que al final de cuentas  es para nosotros mismos.
+Constribuir al mejoramiento del servicio, al hacerlo mejoraríamos la calidad de transporte y la experiencia de sus usuarios.
 
 ## Tecnologías/Frameworks utilizados
 
@@ -17,19 +17,21 @@ Constriur al mejoramiento del servicio, ya que al final de cuentas  es para noso
 - Nodejs
 - express
 - sockets.io
-- firebase-admin
+- Firebase
 - Html5
 - CSS
 - Javascript
 
 ## Funcionalidades mas importantes
-Permite la adquisiion de datos en tiempo real de e los diferentes puntos de parada del Bus Pumakatari, ademas que permite la ubicacion en tiempo real de los buses.
+Permite la adquisiion de datos en tiempo real de los diferentes puntos de parada del Bus Pumakatari, ademas que permite la ubicacion en tiempo real de los buses.
 
 ## Instalación
 Instalar la Aplicacion Flutter.
 Llenar un formulario de los datos del Bus y de los encargados del mismo.
-Ingresar a la pagina Web (localHost:3000)
+Ingresar a la pagina Web 
 
 ## Creditos
-
-
+Sergio Apaza
+Eric Mamani
+Carlos Mendieta
+Silvio Tufiño
