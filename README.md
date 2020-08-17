@@ -9,7 +9,7 @@
  
 
 ## Motivación
-Constribuir al mejoramiento del servicio, al hacerlo mejoraríamos la calidad de transporte y la experiencia de sus usuarios.
+Contribuir al mejoramiento del servicio, al hacerlo mejoraríamos la calidad de transporte y la experiencia de sus usuarios.
 
 ## Tecnologías/Frameworks utilizados
 
