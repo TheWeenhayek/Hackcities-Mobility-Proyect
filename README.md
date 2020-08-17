@@ -1,11 +1,11 @@
 # MobiltyHack
  Uns sistema que realiza la adquisicion de datos en tiempo real de los Buses PumaKatari.
 
- ¿Qué componentes tiene?
+ ## ¿Qué componentes tiene?
  
- Aplicación Movil
- Pagina Web
- Servidor
+ - Aplicación Movil
+ - Pagina Web
+ - Conexión a Servidor
  
 
 ## Motivación
@@ -31,7 +31,7 @@ Llenar un formulario de los datos del Bus y de los encargados del mismo.
 Ingresar a la pagina Web 
 
 ## Creditos
-Sergio Apaza
-Eric Mamani
-Carlos Mendieta
-Silvio Tufiño
+- Sergio Apaza
+- Eric Mamani
+- Carlos Mendieta
+- Silvio Tufiño
